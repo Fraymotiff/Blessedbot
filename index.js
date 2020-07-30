@@ -21,7 +21,7 @@ client.once('ready', () => {
      
 
      if (message.content.startsWith (PREFIX + "blessed")) {
-        let imageNumber = Math.floor(Math.random()* 75) +1
+        let imageNumber = Math.floor(Math.random()* 77) +1
             message.channel.send ("Let's Give it everything we got! It's wholesome time! (or is it?)",  {files: ["./blessed/" + imageNumber + ".png"]} )
             return; 
               
